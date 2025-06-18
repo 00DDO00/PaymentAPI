@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "testuser2",
+      "password_hash": "$2a$12$AOrNDABplG4dok8AYXonBe5E58/XKWx0bvENlR4F3mHjbp5S2BkdK",
+      "balance": 580,
+      "failed_attempts": 0,
+      "locked_until": 0,
+      "created_at": 1749731646
+    }
+  ],
+  "sessions": [],
+  "payments": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "amount": 110,
+      "balance_before": 800,
+      "balance_after": 690,
+      "created_at": 1749731780
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "amount": 110,
+      "balance_before": 690,
+      "balance_after": 580,
+      "created_at": 1749731835
+    }
+  ],
+  "lastUserId": 1,
+  "lastSessionId": 1,
+  "lastPaymentId": 2
+}
